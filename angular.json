@@ -5,7 +5,11 @@
   "projects": {
     "clips": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -97,8 +101,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "e3180065-faaa-4e2b-9274-f6aecf81acf6"
   }
 }
